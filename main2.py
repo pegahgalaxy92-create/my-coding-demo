@@ -1,1 +1,5 @@
-print("This change is from the new-feature branch.")
+def add(a, b):
+    return a + b
+
+if __name__ == "__main__":
+    print(add(2, 3))
